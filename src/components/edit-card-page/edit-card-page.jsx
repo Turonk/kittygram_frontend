@@ -109,7 +109,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
         .catch(handleResponse);
     }
   };
-
+  
   return (
     <div className={`${styles.content} ${extraClass}`}>
       <h2 className="text text_type_h2 text_color_primary mt-25 mb-9">
